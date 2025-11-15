@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # SSL Models for Sentinel-2 Satellite Imagery
 
 A unified PyTorch implementation of three self-supervised learning (SSL) methods for Sentinel-2 satellite imagery:
@@ -285,7 +285,3 @@ python run.py --model simclr --mode train --data ./data --batch_size 16
 - Ensure you're using GPU (check with `nvidia-smi`)
 - Increase `num_workers` in DataLoader if CPU has many cores
 - Use mixed precision training (requires code modification)
-=======
-# Self-Supervised-Learning-SSL
-Self-Supervised Learning models
->>>>>>> df9781c4b51ba93f93f5717a317244229221f900
